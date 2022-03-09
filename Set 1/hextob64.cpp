@@ -98,7 +98,5 @@ std::string hex_converter(std::string x) {
 // ------------------ Print -----------------------
 
 int main(){
-    std::string p = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d";
-    std::string x = hex_converter(p);
-    std::cout << x;
+    std::cout << hex_converter("49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d");
 }
