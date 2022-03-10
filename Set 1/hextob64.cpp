@@ -5,8 +5,6 @@
 // ------------------ Reference Strings -----------------------
 
 const std::string hex_ref = "0123456789abcdef";
-const std::string hex;
-
 const std::string base64_ref = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                                "abcdefghijklmnopqrstuvwxyz"
                                "0123456789+/";
