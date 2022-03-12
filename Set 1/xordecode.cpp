@@ -2,11 +2,9 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <bitset>
 
 const std::string x = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736";
 std::vector<unsigned char> w;
-
 const std::string ref = "ABCDEFGHIJKLMNOPQERSTUVWXYZ";
 
 std::vector<unsigned char> chex(std::vector<unsigned char> a, unsigned char b) {
